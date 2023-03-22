@@ -5,7 +5,7 @@
 
 ## Dataset
 
-> This is the dataset about loans record with various loan variables. This dataset contains 113,937 loans with 81 variables including loan amount, current loan status, term, prosper score, borrower rate (or interest rate),borrower income, and many others. 
+> This is the dataset about loans record with various loan variables. This dataset contains 113,937 loans with 81 variables including loan amount, loan status, term, prosper score, borrower rate (or interest rate),borrower income, and many others. 
 
 > A subset dataset of 77,543 loans with 20 variables was used after data wrangling.
 Some of the variables are: `Term`, `LoanStatus`, `BorrowerRate`, `ProsperScore`, `IncomeRange`, `IsBorrowerHomeowner`, `DebtToIncomeRatio`, 'StatedMonthlyIncome', `LoanOriginalAmount`, `MonthlyLoanPayment`.
@@ -40,21 +40,17 @@ After data wrangling and exploratory visualization:
 
 - More loans are given in 36 term (3years). Over 60% of loans given to borrower are home owner. most of the loans are still on current status. 2013 is the year with the most frequency of loans.
 
-- Most loans are collected based on debt consolidation which was more than other listing category. This implies that most borrowers collect loans to pay up their debts.
-
-- I found that was a strong relationship between the loan original amount and income range, higher the income range the higher the loan amount given.
-
-- There was a strong postive correlation between loan original amount and monthly loan payment.
-
-- There was a weak postive correlation between loan orginal amount and stated monthly income but borrowers with high monthly income tend to get high loans.
-
-- I found that they was some postive relationship between the categorical variables (income range, prosper score, loan orgination year, is borrower home owner and the numerical variables (loan original amount and monthly loan payment). The average loan original amounts and monthly loan payment increased yearly. Highest income range tend to have the highest average loan orginal amount and monthly loan payment.
-
 - High loan amounts are issued out when there's low debt income ratio (< 0.36). The lower the debt to income ratio, the higher the loan original amount.
 
-- There was increased in average monthly loan payment across all income range.
+- Most loans are collected based on debt consolidation which is more than other listing category. This implies that most borrowers collect loans to pay up their debts.
 
-- There was increased in loan original amount and monthly loan payment across the terms.
+- There is a strong relationship between the loan original amount and income range. The higher the income range, the higher the loan amount given.
+
+- There is a strong postive correlation between loan original amount and monthly loan payment, there is a weak postive correlation between loan orginal amount and stated monthly income. People with lower monthly income tend to get high loans.
+
+- There is a weak postive correlation between loan orginal amount and stated monthly income but borrowers with high monthly income tend to get high loans.
+
+- There is an increased in loan original amount and monthly loan payment across terms
 
 ## Key Insights for Presentation:
 
@@ -66,10 +62,9 @@ After data wrangling and exploratory visualization:
 
 ## Skills and Technologies used
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Numpy
+
+
+- Python libraries (Pandas, Matplotlib, NumPy, Seaborn)
+
 - Data Wrangling
 - Data Visualization
