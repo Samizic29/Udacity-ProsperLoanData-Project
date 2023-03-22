@@ -5,9 +5,9 @@
 
 ## Dataset
 
-> This is the dataset about loans record with various loan variables. This dataset contain 113,937 loans with 81 variables including loan amount, current loan status, term, prosper score, borrower rate (or interest rate),borrower income, and many others. 
+> This is the dataset about loans record with various loan variables. This dataset contains 113,937 loans with 81 variables including loan amount, current loan status, term, prosper score, borrower rate (or interest rate),borrower income, and many others. 
 
-> A subset dataset of 77,543 loans with 20 variables was used after data warangling.
+> A subset dataset of 77,543 loans with 20 variables was used after data wrangling.
 Some of the variables are: `Term`, `LoanStatus`, `BorrowerRate`, `ProsperScore`, `IncomeRange`, `IsBorrowerHomeowner`, `DebtToIncomeRatio`, 'StatedMonthlyIncome', `LoanOriginalAmount`, `MonthlyLoanPayment`.
 
 > The dataset can be found in the <a href = "https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv."> here </a> (https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv)
