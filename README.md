@@ -60,7 +60,7 @@ After data wrangling and exploratory visualization:
 
 > Afterwards, I investigate some of other categorical variables. Firstly, I use the box plots of loan original amount and monthly loan payment across year. I'm looking at how the loans are given out and paid across year. Two categorical variables, prosper score and loan origination year are investigated on loan amounts using strip plot based on selected debt to income ratio.
 
-## Skills and Technologies used
+## Skills and Technologies
 
 
 
